@@ -17,10 +17,11 @@ header{
   text-align: center;
 }
 main{
-  background-color: burlywood;
+  background-color: #4b4386;
   text-align: center;
   font-size: 120%;
   padding: 1em;
+  color: beige;
 }
 footer{
   background-color: #3318ca;
