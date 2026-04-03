@@ -3,14 +3,14 @@ body{
   font-size: 130%;
 }
 
-/* nav{
+nav{
   background-color: #d9a92f;
   color: green;
   text-align: left;
   width: 80%;
   
 
-} */
+}
 
 header{
   background-color: #333;
@@ -29,12 +29,12 @@ footer{
   background-color: #3318ca;
   color: white;
 }
-/* li{
+li{
   display: inline;
   width: 10px;
   background-color: rgb(22, 24, 149)
 ;
-} */
+}
 h1{
   color: #ede2e2;
   text-align: center;
@@ -49,9 +49,7 @@ a{
 nav img{
   Width: 10%;
 }
-nav{
-  display: inline-block;
-}
+
 div#grid{
   display: grid;
   grid-template-columns: 40% 40%;
@@ -61,13 +59,49 @@ div#grid img{
   width: 100%;
   row-gap: 10px;
   align-items: center;
+  border-radius: 10px;
+  border: #333 solid 3px;
+}
+div#grid img:active{
+  border: #11147d solid 5px;
+  padding: 10px;
+  margin: 20px;
+  scale: 1.2;
 }
 div#flex{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+div#flex img{
+  margin: auto;
+  padding: auto;
+  border: #ede2e2 solid 3px;
+  border-radius: 1em;
+}
+div#flex img:nth-child(odd){
+  border-radius: 2em;
+}
+div#flex img:hover{
+  border: #11147d solid 5px;
+  scale: 1.2;
+}
 a#main{
   color:#3318ca;
+  position: absolute;
+  top: -9999px;
 }
-  
+a#main:focus{
+  top: 0;
+  left: 0;
+  background-color: #3318ca;
+  color: white;
+  padding: 10px;
+  position: sticky;
+}
+img#Logo{
+  border-radius: 1em;
+  border: #333 solid 3px;
+  padding: 10px;
+  margin: 10px;
+}  
