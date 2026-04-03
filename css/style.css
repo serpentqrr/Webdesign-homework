@@ -1,6 +1,7 @@
 body{
   font-family:'Times New Roman', Times, serif, Tahoma, Geneva, Verdana, sans-serif;
   font-size: 130%;
+  background-color: #d9a92f;
 }
 
 nav{
@@ -80,7 +81,7 @@ div#flex img{
   border-radius: 1em;
 }
 div#flex img:nth-child(odd){
-  border-radius: 2em;
+  border-radius: 3em;
 }
 div#flex img:hover{
   border: #11147d solid 5px;
@@ -105,3 +106,13 @@ img#Logo{
   padding: 10px;
   margin: 10px;
 }  
+p img{
+  border-radius: 1em;
+  margin: auto;
+  border: #d9a92f solid 1px;
+  padding: 1px;
+  position: relative;
+}
+p img:active{
+  scale: 3;
+}
