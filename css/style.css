@@ -111,7 +111,7 @@ p img{
   margin: auto;
   border: #d9a92f solid 1px;
   padding: 1px;
-  position: relative;
+  display: block;
 }
 p img:active{
   scale: 3;
